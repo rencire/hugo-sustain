@@ -191,3 +191,15 @@ div.footer{
   padding-bottom: 15px;
   
 }*/
+
+
+
+/*
+ * For some reason, backgorund-color is not being overwritten by parent div.highlight.  Explicitly overriding color.
+ */
+pre {
+  background-color: transparent;
+}
+
+
+
